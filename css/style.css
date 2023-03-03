@@ -1,5 +1,4 @@
 body {
-  background-image: url('img/1084264.png');
   background-size: cover;
   background-color: rgba(31, 65, 219, 0.541);
 }
@@ -28,10 +27,16 @@ header img {
 
 main {
   text-align: center;
-
 }
 
+main img {
+  border-radius: 55px;
+  width: 255px;
+  height: 230px;
+}
+
+
 a {
-  
+
   margin: 25px;
 }
