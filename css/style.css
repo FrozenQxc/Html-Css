@@ -1,0 +1,27 @@
+body {
+  background-image: url('img/1084264.png');
+  background-size: cover;
+  background-color: rgba(31, 65, 219, 0.541);
+}
+
+h1 {
+  background-color: gold;
+
+}
+
+h2 {
+  background-color: rgb(86, 130, 211);
+}
+
+header {
+  margin: 25px;
+  text-align: center;
+  background-size: px;
+  background-color: aqua;
+
+}
+
+header img {
+  border-radius: 55px;
+  width: 250px;
+}
