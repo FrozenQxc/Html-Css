@@ -2,7 +2,7 @@ body {
   background-image: url(/img/1.jpg);
   background-repeat: no-repeat;
   background-size: 2600px 1300px;
-  background-color: rgb(49, 50, 63);
+  background-color: rgb(49, 50, 64);
 }
 
 h1 {}
@@ -44,10 +44,13 @@ a {
   color: rgb(255, 0, 0);
 }
 
-footer {
-  margin-top: 450px;
+.teg {
+  padding-top: 65px;
   text-align: center;
   color: aliceblue;
-  
 
+}
+
+.video {
+  
 }
