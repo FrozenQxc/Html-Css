@@ -2,6 +2,7 @@ body {
   background-image: url(/img/1.jpg);
   background-repeat: no-repeat;
   background-size: 2600px 1300px;
+  background-color: rgb(49, 50, 63);
 }
 
 h1 {}
@@ -11,6 +12,7 @@ h2 {}
 header {}
 
 header img {
+  
   border-radius: 55px;
   width: 250px;
 }
@@ -18,8 +20,6 @@ header img {
 .container {
   font-weight: bold;
   text-align: center;
-  margin-top: 100px;
-  margin-left: 1000px;
   color: aliceblue;
   
 }
@@ -27,9 +27,8 @@ header img {
 
 
 main {
-  text-align: center;
   margin-top: 100px;
-  margin-left: 1000px;
+  text-align: center;
   color: aliceblue;
 }
 
@@ -42,10 +41,11 @@ main img {
 
 a {
   margin: 25px;
+  color: rgb(255, 0, 0);
 }
 
 footer {
-  margin-top: 355px;
+  margin-top: 450px;
   text-align: center;
   color: aliceblue;
   
