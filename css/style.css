@@ -2,7 +2,7 @@ body {
   background-image: url(/img/1.jpg);
   background-repeat: no-repeat;
   background-size: 2600px 1300px;
-  background-color: rgb(49, 50, 64);
+  background-color: rgb(54, 56, 84);
 }
 
 h1 {}
@@ -12,7 +12,7 @@ h2 {}
 header {}
 
 header img {
-  
+
   border-radius: 55px;
   width: 250px;
 }
@@ -21,15 +21,19 @@ header img {
   font-weight: bold;
   text-align: center;
   color: aliceblue;
-  
+
 }
 
 
 
 main {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   color: aliceblue;
+}
+
+main video{
+  margin-top: 40px;
 }
 
 main img {
@@ -41,16 +45,14 @@ main img {
 
 a {
   margin: 25px;
-  color: rgb(255, 0, 0);
+  color: rgb(252, 252, 252);
 }
 
 .teg {
-  padding-top: 65px;
+  padding-top: 100px;
   text-align: center;
   color: aliceblue;
 
 }
 
-.video {
-  
-}
+.video {}
