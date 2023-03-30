@@ -1,58 +1,34 @@
-body {
-  background-image: url(/img/1.jpg);
-  background-repeat: no-repeat;
-  background-size: 2600px 1300px;
-  background-color: rgb(54, 56, 84);
+body{
+  background: url(/img/1.jpg) no-repeat center/cover;
+  background-color: #363854;
 }
-
-h1 {}
-
-h2 {}
-
-header {}
-
-header img {
-
+header img{
   border-radius: 55px;
   width: 250px;
 }
-
-.container {
+.container{
   font-weight: bold;
   text-align: center;
-  color: aliceblue;
-
+  color: #f0f8ff;
 }
-
-
-
-main {
+main{
   margin-top: 50px;
   text-align: center;
-  color: aliceblue;
+  color: #f0f8ff;
 }
-
-main video{
+main video, main img{
   margin-top: 40px;
 }
-
-main img {
+main img, a{
   border-radius: 55px;
   width: 250px;
-
 }
-
-
-a {
+a{
   margin: 25px;
-  color: rgb(252, 252, 252);
+  color: #fcfcfc;
 }
-
-.teg {
+.teg{
   padding-top: 100px;
+  color: #f0f8ff;
   text-align: center;
-  color: aliceblue;
-
 }
-
-.video {}
