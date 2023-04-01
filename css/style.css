@@ -1,5 +1,6 @@
 body{
-  background: url(/img/1.jpg) no-repeat center/cover;
+
+  background: url('../img/1.jpg') no-repeat center / cover;
   background-color: #363854;
 }
 header img{
