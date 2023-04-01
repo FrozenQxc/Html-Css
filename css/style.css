@@ -3,7 +3,7 @@ body{
   background-color: #363854;
 }
 header img{
-  border-radius: 55px;
+  border-radius: 500px;
   width: 250px;
 }
 .container{
@@ -12,23 +12,29 @@ header img{
   color: #f0f8ff;
 }
 main{
-  margin-top: 50px;
+  margin-top: 25px;
   text-align: center;
   color: #f0f8ff;
 }
-main video, main img{
-  margin-top: 40px;
+main , main img{
+  margin-top: 10px;
 }
 main img, a{
   border-radius: 55px;
   width: 250px;
 }
+
+main video
+{
+  margin: 50px 10px 25px 21px;
+}
+
 a{
   margin: 25px;
   color: #fcfcfc;
 }
 .teg{
-  padding-top: 100px;
+  padding-top: 55px;
   color: #f0f8ff;
   text-align: center;
 }
