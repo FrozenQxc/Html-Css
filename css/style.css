@@ -1,40 +1,49 @@
-body{
-
-  background: url('../img/1.jpg') no-repeat center / cover;
+body {
+  background: url('https://gamerwall.pro/uploads/posts/2021-11/1637711456_4-gamerwall-pro-p-nait-siti-kiberpank-oboi-oboi-na-rabochii-4.jpg') no-repeat center/cover;
   background-color: #363854;
 }
-header img{
+
+header img {
   border-radius: 500px;
   width: 250px;
 }
-.container{
+
+.container {
   font-weight: bold;
   text-align: center;
-  color: #f0f8ff;
+  color: #000000;
 }
-main{
+
+main {
   margin-top: 25px;
   text-align: center;
   color: #f0f8ff;
 }
-main , main img{
+
+main h2 {
+  color: #000000;
+}
+
+main img {
   margin-top: 10px;
 }
-main img, a{
+
+main img,
+a {
   border-radius: 55px;
   width: 250px;
 }
 
-main video
-{
+main video {
   margin: 50px 10px 25px 21px;
 }
 
-a{
+a {
   margin: 25px;
   color: #fcfcfc;
 }
-.teg{
+
+.teg {
   padding-top: 55px;
   color: #f0f8ff;
   text-align: center;
