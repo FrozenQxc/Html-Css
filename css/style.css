@@ -41,6 +41,7 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 600;
   text-decoration: none;
+
 }
 
 .navbar {
@@ -73,9 +74,8 @@ main {
 
 }
 
-.content img {
-  width: 1200px;
-  
+.img-fluid {
+  border-radius: 30px;
 }
 
 .content h1 {
@@ -95,11 +95,19 @@ main {
   grid-gap: 35px;
 }
 
-.card img{
+.card {
+  border: solid 3px rgb(252, 250, 250);
+  border-radius: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
   min-height: 100px;
   min-width: 100px;
-  
+  border-radius: 30px;
 }
+
 
 footer {
   position: fixed;
