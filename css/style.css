@@ -100,3 +100,23 @@ main {
   min-width: 100px;
   
 }
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+
+}
+
+footer a {
+  margin: 10px;
+  font-size: 50px;
+}
+
+footer p {
+  margin-top: 25px;
+  font-size: 22px;
+  color: aliceblue;
+}
