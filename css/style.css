@@ -1,54 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 body {
-  background: #989898 url(https://gamerwall.pro/uploads/posts/2021-11/1637711456_4-gamerwall-pro-p-nait-siti-kiberpank-oboi-oboi-na-rabochii-4.jpg) center center/cover no-repeat;
-  background-color: #363854;
+  
+  min-height: 100vh;
+  background: #fff url(https://gamerwall.pro/uploads/posts/2022-03/1648498582_2-gamerwall-pro-p-krasivii-fon-s-lunoi-krasivie-2.jpg) center center/cover no-repeat;
+
+
+  background-color: rgb(254, 254, 254);
+
+
 }
 
-header img {}
+.header {
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
 
-
-.container {
-  font-weight: bold;
-  text-align: center;
-  color: #ffffff;
+  align-items: center;
+  z-index: 100;
 }
 
-.container img {
-  border-radius: 500px;
-  width: 250px;
+.header a:hover{
+  color: blue;
+  font-weight: 500;
+  transition: 1s;
+}
+
+.logo {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar {
+  padding-left: 25%;
+}
+
+.navbar a {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgba(0, 145, 255, 0.848);
 }
 
 main {
-  margin-top: 25px;
-  text-align: center;
-  color: #f0f8ff;
-}
-
-main h2 {
-  color: #000000;
-}
-
-main img {
   margin-top: 10px;
+  padding: 0 25%;
 }
 
-main img,
-a {
-  border-radius: 55px;
-  width: 250px;
-}
-
-main video {
-  margin: 50px 10px 25px 21px;
-}
-
-a {
-  margin: 25px;
-  color: #fcfcfc;
-}
-
-.teg {
-  padding-top: 55px;
-  color: #f0f8ff;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+
+}
+
+.content img {
+  width: 1200px;
+  
+}
+
+.content h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: rgb(162, 255, 0);
+}
+
+
+.card-container {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 35px;
+}
+
+.card img{
+  min-height: 100px;
+  min-width: 100px;
+  
 }
